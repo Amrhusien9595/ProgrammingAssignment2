@@ -1,15 +1,21 @@
-## Put comments here that give an overall description of what your
-## functions do
+##lapply function will be used to list
+## getting a mean of the function 
+##getting the mean
 
-## Write a short comment describing this function
+## since that matrix will be used so the first element descripes the range of the numbers for example from 1:4, and the second element is the number of rows and finally the number of columns 
+makecachematrix<- list(x=matrix(1:4,1,4))
+lapply(makecachematrix, mean)
 
-makeCacheMatrix <- function(x = matrix()) {
+##lapply function will be used to list
+## getting a mean of the function 
+##getting the mean
 
-}
+## since that matrix will be used so the first element descripes the range of the numbers for example from 1:4, and the second element is the number of rows and finally the number of columns 
+makecachematrix<- list(x=matrix(1:4,1,4))
+lapply(makecachematrix, mean)
 
-
-## Write a short comment describing this function
-
-cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
+## adding two  values 
+cachsolve<-function(x,y){
+  x+y
+  
 }
